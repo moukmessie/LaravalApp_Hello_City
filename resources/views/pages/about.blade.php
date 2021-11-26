@@ -1,6 +1,6 @@
 
-@extends('app')
-@section('title','About | '. config('app.name'))
+@extends('layouts.app', ['title' => 'About'])
+
 
 @section('content')
     <img src="{{asset('images/img_2.png')}}" alt="flag" class="my-12 rounded-full shadow-md">
